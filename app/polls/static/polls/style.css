@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 li a {
     color: green;
 }
@@ -6,3 +8,4 @@ li a {
 body {
     background: white url("images/background.png") no-repeat;
 }
+
